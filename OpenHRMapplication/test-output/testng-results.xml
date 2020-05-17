@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRM testcase" duration-ms="9941" started-at="2020-05-14T06:51:05Z" finished-at="2020-05-14T06:51:15Z">
+    <groups>
+    </groups>
+    <test name="Pending Leave Request" duration-ms="5891" started-at="2020-05-14T06:51:05Z" finished-at="2020-05-14T06:51:11Z">
+      <class name="testCase.Test_Pending_Leave_Request">
+        <test-method status="PASS" signature="leave_Request()[pri:0, instance:testCase.Test_Pending_Leave_Request@139baec]" name="leave_Request" duration-ms="5839" started-at="2020-05-14T06:51:05Z" finished-at="2020-05-14T06:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leave_Request -->
+      </class> <!-- testCase.Test_Pending_Leave_Request -->
+    </test> <!-- Pending Leave Request -->
+    <test name="UsersRoll and Admin" duration-ms="3994" started-at="2020-05-14T06:51:11Z" finished-at="2020-05-14T06:51:15Z">
+      <class name="testCase.Test_UserRoll">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:testCase.Test_UserRoll@14180a2]" name="launchbrowser" is-config="true" duration-ms="9470" started-at="2020-05-14T06:50:56Z" finished-at="2020-05-14T06:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="CheckEverything()[pri:0, instance:testCase.Test_UserRoll@14180a2]" name="CheckEverything" duration-ms="3989" started-at="2020-05-14T06:51:11Z" finished-at="2020-05-14T06:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckEverything -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testCase.Test_UserRoll@14180a2]" name="closebrowser" is-config="true" duration-ms="731" started-at="2020-05-14T06:51:15Z" finished-at="2020-05-14T06:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testCase.Test_UserRoll -->
+    </test> <!-- UsersRoll and Admin -->
+  </suite> <!-- HRM testcase -->
+</testng-results>
